@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Project #</title>
+        
+        <!-- link our CSS file -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- defer makes it so that these scripts load
+            in the background and then execute in order
+            after the DOM is ready -->
+
+        <!--For legends-->   
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+
+        <!-- D3 library goes first --> 
+        <script src="d3/d3.js" defer></script>
+        <script src="d3/d3-array.js" defer></script>
+        
+        <!-- Then our visualization code --> 
+        <script src="visualizations/vis1.js" defer></script>
+        <script src="visualizations/vis2.js" defer></script>
+        
+        <!-- Then our code that calls the visualizations --> 
+        <script src="main.js" defer></script>
+
+    </head>
+
+    <body>
+        <div id="container">
+            <p>Caroline, cb3991</p>
+            <p>Mini-project #1</p>
+
+            <h1>Visualization 1</h1>
+            <p> 
+                For this visualization, I believed the best way to represent 
+                the data would be to create a diverging bar chart. This way it is 
+                possible to directly compare the net amount received or donated 
+                to other countries. First I got 
+                the net amount of usd dollars of donate minus receieved, and then
+                for each country, graphed a bar with length corresponding to how much
+                recieved(+) or donated(-), and color intensity to represent the amount donated 
+                or recieved. I was having a hard time implementing legends, so unfortunately they are
+                not included as of yet.
+            </p>
+            <div id="vis1"></div>
+            
+            <h1>Visualization 2</h1>
+            <p> 
+                For the second visualization, I created a map with a diverging color scale
+                to represent the percentage of usd money donated over the total amount donated and receieved. 
+                The higher proportion donated to recieved, the more intense blue. 
+                While a country that recieves much more than donates will have a more intense red color.
+                Countries that have no data remain white. By using a choropleth map, we can see
+                relationships between locations where certain color intensities are clustered.
+            </p>
+            <div id="vis2"></div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+}
+.y-axis line{
+    stroke: black;
+}
+
+.annual-growth {
+    fill: black;
+}
+
+.bar-label {
+    font-size: 8px;
+}
+
+.domain, .tick line {
+    opacity: 0.5;
+}
+  

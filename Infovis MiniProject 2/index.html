@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Project #</title>
+        
+        <!-- link our CSS file -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- defer makes it so that these scripts load
+            in the background and then execute in order
+            after the DOM is ready -->
+
+        <!-- D3 library goes first --> 
+        <script src="d3/d3.js" defer></script>
+        <script src="d3/d3-array.js" defer></script>
+        <!-- Then our visualization code --> 
+        <script src="visualizations/vis1.js" defer></script>
+        <script src="visualizations/vis2.js" defer></script>
+        <script src="visualizations/vis3.js" defer></script>
+        <script src="visualizations/vis3b.js" defer></script>
+        <script src="visualizations/vis3c.js" defer></script>
+        <script src="visualizations/vis3d.js" defer></script>
+        
+        <!-- Then our code that calls the visualizations --> 
+        <script src="main.js" defer></script>
+
+    </head>
+
+    <body>
+        <div id="container">
+            <p>Caroline, cb3991</p>
+            <p>Mini-project #2</p>
+
+            <h1>Visualization 1</h1>
+            <p style="width:100%;">
+                This visualization is a chloropleth grid that uses a diverging color scale
+                to show the change of a countries ratio of amount donated to received from 
+                the years 1973-2013. I believed using a chloropleth map to show the change in
+                ratio answers the question well in that it shows the change of a countries 
+                role over the time period. You can see the sudden increase of donations or the 
+                sudden decrease of donations by simply looking at the hue and color intensity. 
+                The red hue demonstrates more amounts recieved than donated, and the blue hue
+                represents more donated than recieved. The more intense the hue, the more 
+                that is donated/recieved.
+            </p>
+            <div id="vis1"></div>
+            
+            <h1>Visualization 2</h1>
+            <p style="width:100%;">
+                For this visualization, I used a multi-line line graph to demonstrate the 
+                change in amount of top 10 coalesced disbursements across all countries 
+                and time. I believed that for each year, you can see which purpose is mostly 
+                donated by seeing which line is the highest, and you can see its relative height
+                to other purpose through the difference in height to the other lines.
+            </p>
+            <div id="vis2legend"></div>
+            <div id="vis2"></div>
+            <h1>Visualization 3</h1>
+            <p style="width:100%;">
+                For this visualization, I showed the passage of time by splitting the data 
+                into four groups, each of the same period length of 5 years, to answer how
+                donations shift geographically over time. Using a single hue color scale
+                we can see how the intensity of the hue changes over time, and demonstrate
+                how much a country donates (the more donated the more intense the blue).
+                Comparing the maps to eachother, we can see the shift in amounts of donations
+                all over the world over time.
+            </p>
+            <div class="vis3">
+                <div id="vis3"></div>
+                <div id="vis3b"></div>
+            </div>
+            <div class="vis3">
+                <div id="vis3c"></div>
+                <div id="vis3d"></div>
+            </div>
+            
+            
+        </div>
+    </body>
+</html>
