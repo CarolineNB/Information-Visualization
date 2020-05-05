@@ -1,8 +1,13 @@
-# CS-GY 6313 Information Visualization
+# Graphical Encoding
+### Task Description
+Adding the appropriate color to better interpret visualizations.
 
-## Contents
-Assignments | Format | Updated
------------- | -------------| -------------
-**Exercises** <ul><li>Graph Design</li><li>Graphical Encoding</li><li>Color</li></ul> | `Observable` | 4.20.20
-**Mini Projects** <ul><li>[MiniProject 1](https://github.com/CarolineNB/InformationVisualization/tree/master/Mini%20Projects/Infovis%20MiniProject%201) (Geographical)</li><li>[MiniProject 2](https://github.com/CarolineNB/InformationVisualization/tree/master/Mini%20Projects/Infovis%20MiniProject%202) (Temporal)</li><li>MiniProject 3 (Networks)</li></ul> | `JavaScript` | 5.4.20
-
+### Solutions
+| Black and White| Colored | 
+| :-------------: |:-------------:|
+| ![Problem 1b](https://github.com/CarolineNB/InformationVisualization/blob/master/Exercises/Color/demo/Problem1b.PNG) | ![Problem 1](https://github.com/CarolineNB/InformationVisualization/blob/master/Exercises/Color/demo/Problem1.PNG) | 
+| ![Problem 2b](https://github.com/CarolineNB/InformationVisualization/blob/master/Exercises/Color/demo/Problem2b.PNG) | ![Problem 2](https://github.com/CarolineNB/InformationVisualization/blob/master/Exercises/Color/demo/Problem2.PNG) | 
+| ![Problem 3b](https://github.com/CarolineNB/InformationVisualization/blob/master/Exercises/Color/demo/Problem3b.PNG) | ![Problem 3](https://github.com/CarolineNB/InformationVisualization/blob/master/Exercises/Color/demo/Problem3.PNG) | 
+| ![Problem 4b](https://github.com/CarolineNB/InformationVisualization/blob/master/Exercises/Color/demo/Problem4b.PNG) | ![Problem 4](https://github.com/CarolineNB/InformationVisualization/blob/master/Exercises/Color/demo/Problem4.PNG) | 
+| ![Problem 5b](https://github.com/CarolineNB/InformationVisualization/blob/master/Exercises/Color/demo/Problem4b.PNG) | ![Problem 5](https://github.com/CarolineNB/InformationVisualization/blob/master/Exercises/Color/demo/Problem5.PNG) | 
+| ![Problem 6b](https://github.com/CarolineNB/InformationVisualization/blob/master/Exercises/Color/demo/Problem6b.PNG) | ![Problem 6](https://github.com/CarolineNB/InformationVisualization/blob/master/Exercises/Color/demo/Problem6.PNG) | 
