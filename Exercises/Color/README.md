@@ -1,7 +1,7 @@
 # Graphical Encoding
 ### Task Description
 
-### Solutions
+### Created Solutions
 | Black and White| Colored | 
 | :-------------: |:-------------:|
 | ![Problem 1b](https://github.com/CarolineNB/InformationVisualization/blob/master/Exercises/Color/demo/Problem1b.PNG) | ![Problem 1](https://github.com/CarolineNB/InformationVisualization/blob/master/Exercises/Color/demo/Problem1.PNG) | 
