@@ -1,8 +1,11 @@
 # CS-GY 6313 Information Visualization
+## Task
+In this exercise, we will be working data derived from the NYC Restaurant Inspection Results dataset.
+For each problem below, create a visualization using D3 that provides an answer to the questions. Also write a short justification of your visualization design choices.
 
-## Contents
-Assignments | Format | Updated
------------- | -------------| -------------
-**Exercises** <ul><li>Graph Design</li><li>Graphical Encoding</li><li>Color</li></ul> | `Observable` | 4.20.20
-**Mini Projects** <ul><li>[MiniProject 1](https://github.com/CarolineNB/InformationVisualization/tree/master/Mini%20Projects/Infovis%20MiniProject%201) (Geographical)</li><li>[MiniProject 2](https://github.com/CarolineNB/InformationVisualization/tree/master/Mini%20Projects/Infovis%20MiniProject%202) (Temporal)</li><li>MiniProject 3 (Networks)</li></ul> | `JavaScript` | 5.4.20
-
+## Exercise
+| Problem | Created Solution | 
+| :-------------: |:-------------:|
+| What is the distribution of grades over cuisine descriptions? Which cuisise descriptions have the best/worst distribution? | ![Problem 1](https://github.com/CarolineNB/InformationVisualization/blob/master/Exercises/Color/demo/Problem1.PNG) | 
+| How do the number of inspections change over time for each borough? Use month as the level of temporal granularity. | ![Problem 2](https://github.com/CarolineNB/InformationVisualization/blob/master/Exercises/Color/demo/Problem2.PNG) | 
+| Is there a relationship between cuisine type and violation? Do some cuisine types have uique violations that differ from the others? | ![Problem 3](https://github.com/CarolineNB/InformationVisualization/blob/master/Exercises/Color/demo/Problem3.PNG) | 

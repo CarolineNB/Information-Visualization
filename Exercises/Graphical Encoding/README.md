@@ -8,7 +8,7 @@ In this exercise, we have a dataset that contains the unemployment rate for each
 | ![Example 1](https://github.com/CarolineNB/InformationVisualization/blob/master/Exercises/Graphical%20Encoding/demo/Example1.PNG) | ![Example 2](https://github.com/CarolineNB/InformationVisualization/blob/master/Exercises/Graphical%20Encoding/demo/Example2.PNG) | 
 
 ### Created Solutions
-| Radius Map | Bar Graph | Radial Grid |
+| Radial Map | Bar Graph | Radial Grid |
 | :-------------: |:-------------:|:-------------:| 
 | ![Problem 1](https://github.com/CarolineNB/InformationVisualization/blob/master/Exercises/Graphical%20Encoding/demo/Problem1.PNG) | ![Problem 2](https://github.com/CarolineNB/InformationVisualization/blob/master/Exercises/Graphical%20Encoding/demo/Problem2.PNG) | ![Problem 3](https://github.com/CarolineNB/InformationVisualization/blob/master/Exercises/Graphical%20Encoding/demo/Problem3.PNG) |
 | **Diverging Color Map**| **Bubble Chart**|
