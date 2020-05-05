@@ -1,7 +1,7 @@
 # CS-GY 6313 Information Visualization
 ## Task
 In this exercise, we will be working data derived from the NYC Restaurant Inspection Results dataset.
-For each problem below, create a visualization using D3 that provides an answer to the questions. Format of responses should be in an Observable Notebook
+For each problem below, create a visualization using D3 that provides an answer to the questions. Format of responses should be in an Observable Notebook (original notebook is linked [here](https://observablehq.com/d/7195b89321e7c59d)).
 
 ## Exercise
 | Problem | Created Solution | 
