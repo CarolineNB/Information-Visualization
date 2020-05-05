@@ -24,9 +24,6 @@ function vis2(data, geoJSON, div) {
       .fitSize([visWidth, visHeight], geoJSON);
 
   const path = d3.geoPath().projection(projection);
-
-
-
   
   g.selectAll('.border')
     .data(geoJSON.features)
