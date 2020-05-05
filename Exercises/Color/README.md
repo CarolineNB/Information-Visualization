@@ -1,6 +1,5 @@
 # Graphical Encoding
 ### Task Description
-Adding the appropriate color to better interpret visualizations.
 
 ### Solutions
 | Black and White| Colored | 
