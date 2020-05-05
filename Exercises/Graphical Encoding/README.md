@@ -5,7 +5,7 @@ In this exercise, we have a dataset that contains the unemployment rate for each
 ### Examples
 | Choropleth| Speedometer Chart| 
 | :-------------: |:-------------:|
-| ![Example 1](https://github.com/CarolineNB/InformationVisualization/tree/master/Exercises/Graphical%20Encoding/demo/Example1.PNG) | ![Example 2](https://github.com/CarolineNB/InformationVisualization/blob/master/Exercises/Graphical%20Encoding/demo/Example2.PNG) | 
+| ![Example 1](https://github.com/CarolineNB/InformationVisualization/blob/master/Exercises/Graphical%20Encoding/demo/Example1.PNG) | ![Example 2](https://github.com/CarolineNB/InformationVisualization/blob/master/Exercises/Graphical%20Encoding/demo/Example2.PNG) | 
 
 ### Created Solutions
 | Radius Map | Bar Graph | Radial Grid |
