@@ -1,7 +1,7 @@
 # CS-GY 6313 Information Visualization
 ## Task
 In this exercise, we will be working data derived from the NYC Restaurant Inspection Results dataset.
-For each problem below, create a visualization using D3 that provides an answer to the questions. Also write a short justification of your visualization design choices.
+For each problem below, create a visualization using D3 that provides an answer to the questions. 
 
 ## Exercise
 | Problem | Created Solution | 
