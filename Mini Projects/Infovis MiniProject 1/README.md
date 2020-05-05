@@ -5,7 +5,7 @@ Given the data structure and analytical questions presented below, your goal is 
 
 
 ## Data
-In the [AidData dataset](https://www.aiddata.org/data/aiddata-core-research-release-level-1-3-1), each row represents a financial transaction between two countries. We will be focusing on teh following attributes of the dataset:
+In the [AidData dataset](https://www.aiddata.org/data/aiddata-core-research-release-level-1-3-1), each row represents a financial transaction between two countries. We will be focusing on the following attributes of the dataset:
 
 * **Year**: year of the commitment
 * **Donor**: country providing the financial resource
