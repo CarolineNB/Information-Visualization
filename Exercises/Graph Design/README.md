@@ -14,9 +14,9 @@ For each problem below, create a visualization using D3 that provides an answer 
 The link of raw code is: https://observablehq.com/d/7195b89321e7c59d
 
 View this notebook in your browser by running a web server in this folder. For example:
-```
-python -m SimpleHTTPServer
-```
+
+`python -m SimpleHTTPServer`
+
 Or, use the Observable Runtime to import this module directly into your application. To npm install:
 
 ```
