@@ -28,4 +28,8 @@ python -m SimpleHTTPServer
 
 You can then go to http://localhost:8000 in your browser. See [How do you set up a local testing server?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server) for more.
 
-
+## Problems and Created Solution
+Problem Questions | Visualization
+------------ | -------------
+How do the countries compare in terms of how much they receive and donate from other countries? Are there countries that donate much more than they receive or receive much more than they donate? | ![problem1](https://github.com/CarolineNB/InformationVisualization/blob/master/Mini%20Projects/Infovis%20MiniProject%201/demo/Capture.PNG)
+Do the countries that mostly receive or mostly donate tend to cluster around specific geographical areas of the world? Are there neighboring countries that have radically different patterns in terms of how much they receive vs. how much they donate? | ![Problem2](https://github.com/CarolineNB/InformationVisualization/blob/master/Mini%20Projects/Infovis%20MiniProject%201/demo/Capture2.PNG)
