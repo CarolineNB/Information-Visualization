@@ -1,8 +1,18 @@
-# Info Vis Project Template
+# MiniProject Time: Graph Design (Networks)
 
-## Intro
+## Overview
+Given the data structure and analytical questions presented below, your goal is to come up with effective visualization designs to answer the questions posed and to communicate their answers found in the data. The format of submissino will be a website using HTML, CSS, and D3 + JavaScript. 
 
-This is a simple template to use for class projects. You can change this template however you want and you do not have to use it. This is just one possible way to structure your code that works for making static visualizations, but there are many others. For example, there's the [reusable charts pattern](https://bost.ocks.org/mike/chart/).
+
+## Data
+In the [AidData dataset](https://www.aiddata.org/data/aiddata-core-research-release-level-1-3-1), each row represents a financial transaction between two countries. We will be focusing on the following attributes of the dataset:
+
+* **Year**: year of the commitment
+* **Donor**: country providing the financial resource
+* **Recipient**: country or organization receiving the money
+* **Commitment Amount**: the total amount of financial resources provided
+* **Coalesced Purpose Name**: the purpose of the transaction
+* ...
 
 ## Running the code
 
@@ -18,22 +28,10 @@ python -m SimpleHTTPServer
 
 You can then go to http://localhost:8000 in your browser. See [How do you set up a local testing server?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server) for more.
 
-## Contents
-
-* `index.html` contains the basic HTML structure and links to the CSS and JS files.
-
-* `style.css` contains CSS rules.
-
-* `d3` contains the D3 library.
-
-* `data` contains datasets used by the visualizations. For now there is a toy dataset that contains the scores for a game and `countries.json`, which is a GeoJSON file for world countries. This file is derived from data from [Natural Earth](https://www.naturalearthdata.com).
-
-* `main.js` loads the datasets and then calls the visualization functions.
-
-* `visualizations` contains the code to make the visualizations. As an example, right now there is a bar chart and an empty world map.
-
-## Transitioning from Observable
-
-So far in this course, we have used [Observable](https://observablehq.com) to build our visualizations. Observable is an awesome tool, but we want to make sure that you also know how to make visualizations outside of it. We want you to become comfortable building visualizations in normal websites, using HTML, CSS, and D3 + JavaScript. The good news is that what you've learned so far is easy to transfer from Observable to your own websites.
-
-For example, the bar chart in `vis1.js` is mostly the same as the one in the [Fundamental Graphs](https://observablehq.com/@nyuvis/fundamental-graphs) notebook. The main difference is how we create the SVG element. First, I added a `<div id="vis1">` in `index.html` for where I want the visualization to go on the page. In `main.js`, I select the div and pass it to the `vis1` function. In that function, we add an SVG element to the div and select it with `const svg = div.append('svg')`. Now that we've selected and added the SVG element to the page, the rest of the code is the same as on Observable, except that we no longer have `return svg.node();` at the end.
+## Problems and Created Solution
+Problem Questions | Visualization
+------------ | -------------
+Create an overview of the relationships between countries so that it is possible to see who donates to whom and how much. The main question one should be able to answer is: who are the major donors and to which countries do they donate the most and how much? And conversely, who are the major receivers and which countries do they receive from the most and how much? We only care about the top 10 recipients and the top 20 donors over time for this question.
+| ![Problem3a](https://github.com/CarolineNB/Information-Visualization/blob/master/Mini%20Projects/Infovis%20MiniProject%203/demos/demo1.PNG)
+Considering only the top 5 purposes of donation, how does the relationship between countries look like in terms of purposes? What composition of  purposes do the donations between each pair of countries have? Are there countries that donate to a given country using multiple purposes? Or do counties always donate using one single purpose when donating to another country? The same as the previous question, we only care about the top 10 recipients and the top 20 donors here.
+| ![Problem3b](https://github.com/CarolineNB/Information-Visualization/blob/master/Mini%20Projects/Infovis%20MiniProject%203/demos/demo2.PNG)
