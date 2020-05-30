@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Project #</title>
+        
+        <!-- link our CSS file -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- defer makes it so that these scripts load
+            in the background and then execute in order
+            after the DOM is ready -->
+
+        <!-- D3 library goes first --> 
+        <script src="d3/d3.js" defer></script>
+        <script src="d3/d3-array.js" defer></script>
+        <!-- Then our visualization code --> 
+        <script src="visualizations/vis1.js" defer></script>
+        <script src="visualizations/vis2a.js" defer></script>
+        <script src="visualizations/vis2b.js" defer></script>
+        <script src="visualizations/vis2c.js" defer></script>
+        <script src="visualizations/vis2d.js" defer></script>
+        <script src="visualizations/vis2e.js" defer></script>
+        <script src="visualizations/vis2f.js" defer></script>
+        <script src="visualizations/vis2g.js" defer></script>
+        <script src="visualizations/vis2h.js" defer></script>
+        <script src="visualizations/vis2i.js" defer></script>
+        <script src="visualizations/vis2j.js" defer></script>
+        <!-- Then our code that calls the visualizations --> 
+        <script src="main.js" defer></script>
+
+    </head>
+
+    <body>
+        <div id="container">
+            <p>Caroline, cb3991</p>
+            <p>Mini-project #3</p>
+
+            <h1>Visualization 1</h1>
+            <p style="width:100%;">
+                In this visualization I utilized a chloropleth grid with a single color hue. 
+                The darker the hue, the more a country donates to another and we can easily see 
+                relationships between countries because of the grid/matrix structure. The donors 
+                are aligned to the left, while the receivers are aligned on top. The order of the 
+                countries depends on the total amount donated--moving down, the aggregated amount
+                donated by a donor country becomes less.
+            </p>
+            <img src="data\legendVis1.PNG" alt="Vis1Legend" style="width:25%;height:auto;">
+            <center>Top 10 Donor countries vs. Top 20 Reciever Countries</center>
+            <div id="vis1" style="display: flex; align-items: center; font-size: 10px;">Donors</div>
+
+            
+            <h1>Visualization 2</h1>
+            <p style="width:100%;">
+                For this visualization, I used a pie chart grid to demonstrate the 
+                relationships between countries in terms of purposes. The different colors 
+                of the pie chart represent the type of purpose donated, and the position 
+                demonstrates the relationship between two countries. The pie charts are ordered
+                by countries that recieved the most amount in total usd dollars, starting with 
+                India and ending with Saudi Arabia.
+            </p>
+            <div id="vis2legend" style="height: 90px"></div>
+            &nbsp;
+            <center>Distribution of Top 5 Purposes for Top 10 Donor countries and Top 20 Reciever Countries</center>
+            <div style="font-size: 13px;">
+                <b>Recievers </b>
+                <div style="display: flex; align-items: center; font-size: 10px;">
+                    <div style="width: 20px">India</div> <div id="vis2a"></div>
+                </div>
+                <div style="display: flex; align-items: center; font-size: 10px;">
+                    <div style="width: 20px">Thailand</div> <div id="vis2b"></div>
+                </div>
+                <div style="display: flex; align-items: center; font-size: 10px;">
+                    <div style="width: 20px">Brazil</div> <div id="vis2c"></div>
+                </div>
+                <div style="display: flex; align-items: center; font-size: 10px;">
+                    <div style="width: 20px">Colombia</div> <div id="vis2d"></div>
+                </div>
+                <div style="display: flex; align-items: center; font-size: 10px;">
+                    <div style="width: 20px">Korea</div> <div id="vis2e"></div>
+                </div>
+                <div style="display: flex; align-items: center; font-size: 10px;">
+                    <div style="width: 20px">Poland</div> <div id="vis2f"></div>
+                </div>
+                <div style="display: flex; align-items: center; font-size: 10px;">
+                    <div style="width: 20px">South Africa</div> <div id="vis2g"></div>
+                </div>
+                <div style="display: flex; align-items: center; font-size: 10px;">
+                    <div style="width: 20px">Kuwait</div> <div id="vis2h"></div>
+                </div>
+                <div style="display: flex; align-items: center; font-size: 10px;">
+                    <div style="width: 20px">Chile</div> <div id="vis2i"></div>
+                </div>
+                <div style="display: flex; align-items: center; font-size: 10px;">
+                    <div style="width: 20px">Saudi Arabia</div> <div id="vis2j"></div>
+                </div>
+                &nbsp;
+                <div style="font-size: 13px;">
+                    <center><b>Donors</b></center>
+    
+                </div>
+
+            </div>
+            
+
+        </div>
+    </body>
+</html>
